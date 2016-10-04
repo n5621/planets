@@ -1,0 +1,100 @@
+  157  history
+  158  history | tail -5
+  159  git log
+  160  history | tail -5 | head -1
+  161  history | tail -5 | head -4
+  162  cat mars.txt
+  163  git status
+  164  git commit -m "added a another line"
+  165  git commit -a -m "added a another line"
+  166  git  help
+  167  git  help commit
+  168  git status
+  169  git add venus # comment
+  170  git add venus.txt # comment
+  171  git commit -a -m "added a another line" # -a checks for changes in files in respository
+  172  git status
+  173  git status
+  174  rm mars.txt
+  175  # we removed mars.txt - if it wasn't in the repository it would be gone forever
+  176  git checkout HEAD mars.txt # we'll bring it back!, HEAD is shorthand for the most recent version
+  177  cat mars.txt
+  178  git log
+  179  ls
+  180  rm mars.txt
+  181  ls
+  182  git checkout HEAD~2 mars.txt
+  183  cat mars.txt
+  184  git status
+  185  git checkout HEAD mars.txt
+  186  cat mars.txt
+  187  git log --pretty=oneline
+  188  git log --pretty=oneline # a nicer version of the log output
+  189  git ls-tree --full-tree -r HEAD
+  190  git ls-tree --full-tree -r HEAD # how to look at the files that are under version control
+  191  git status
+  192  git diff mars.txt
+  193  git diff mars.txt
+  194* git commit -am "edited mars"
+  195  git diff
+  196  ls -aF 
+  197  mkdir results
+  198  touch results/{a..c}.dat # creates 3 files a.dat, b.dat and c.dat and puts them in results directory
+  199  ls
+  200  touch draft.txt
+  201  ls
+  202  # touch creates things!
+  203  touch .gitignore
+  204  notepad .gitignore
+  205  ls
+  206  git status
+  207  git log
+  208  git checkout 0f05aca9b7b59be258086c9edef5f3d9ae4a037c
+  209  git branch
+  210  ls
+  211  more mars.txt
+  212  less mars.txt
+  213  cat mars.txt
+  214  git status
+  215  git commit -a -m "added a another line"
+  216  git remote add origin # -a checks for changes in files in respository
+  217  git remote add origin https://github.com/n5621/planets.git
+  218  git remote
+  219  git remote -v
+  220  git status
+  221  git branch
+  222  git branch master
+  223  git checkout master
+  224  git branch
+  225  git push origin master
+  226  cd ../
+  227  pwd
+  228  mkdir kjdir
+  229  cd kjdir
+  230  git clone https://gitremoteOfYourPartnet partner
+  231  git clone https://github.com/kjcollin/git
+  232  pwd
+  233  cd git
+  234  pwd
+  235  touch question.txt
+  236  git add question.txt
+  237  git commit -m "added a question"
+  238  git status
+  239  git push origin master
+  240  history
+  241  pwd
+  242  cd ..
+  243  ccd ..
+  244  cd ..
+  245  cd planets
+  246  git pull 
+  247  git pull origin master
+  248  history
+  249  history > history1.txt
+  250  cat history1.txt
+  251  history | tail-100 | > history1.txt
+  252  history | tail -100 | > history1.txt
+  253* 
+  254  less history1.txt
+  255  pwd
+  256  history | tail -100  > history1.txt
